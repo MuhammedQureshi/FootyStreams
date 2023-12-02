@@ -1,63 +1,55 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "GOAL808",
+	description: "A football streaming platform",
 	navItems: [
+	{
+		label: "Home",
+		href: "/",
+	},
+    {
+      label: "Collection",
+      href: "/",
+    },
+    {
+      label: "Schedule",
+      href: "/",
+    },
+    {
+      label: "Blog",
+      href: "/",
+    },
+    {
+      label: "More",
+      href: "/",
+    }
+	],
+	navMenuItems: [
 		{
 			label: "Home",
 			href: "/",
 		},
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Collection",
+      href: "/",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Schedule",
+      href: "/",
     },
     {
       label: "Blog",
-      href: "/blog",
+      href: "/",
     },
     {
-      label: "About",
-      href: "/about",
-    }
-	],
-	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+      label: "More",
+      href: "/",
+    },
+	{
+		label: "Logout",
+		href: "/logout",
+	},
 	],
 	links: {
 		github: "https://github.com/nextui-org/nextui",
