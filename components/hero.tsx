@@ -21,14 +21,25 @@ function Hero() {
                 </a>
             </div>
         </div>
-        <div className='border mx-3 h-[39rem] border-red-500'>
-            <div className=' mx-auto w-auto'>
+        <div className='border md:mx-3 h-[39rem] border-red-500'>
+            <div className='flex mx-auto w-auto'>
             <Image
-                className='inline-block h-auto ring-4 '
-                width={1100}
+                className='inline-block w-[70rem] z-10 h-auto  border-r-[6px] border-white'
                 alt="Champions league"
                 src="https://www.mancity.com/meta/media/pxwd1nnt/li206578.png"
             />
+                        <Image
+                className='relative grayscale right-10 z-0 w-[20rem] h-full border-r-5 border-white'
+                alt="Champions league"
+                src="https://www.mancity.com/meta/media/pxwd1nnt/li206578.png"
+            />
+                                    <Image
+                className='relative grayscale right-20 w-[20rem] h-full border-r-5 border-white'
+                alt="Champions league"
+                src="https://www.mancity.com/meta/media/pxwd1nnt/li206578.png"
+            />
+            
+            
             </div>
         </div>
     </div>
